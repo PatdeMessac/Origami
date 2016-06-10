@@ -4,63 +4,71 @@
 	<head>
 		<title>Origami</title>
 		<meta charset="UTF8">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" type ="text/css" href ="origami.css"/>
 		<link rel='stylesheet' id='google-webfonts-css'  href='http://fonts.googleapis.com/css?family=Terminal+Dosis%3A200%2C400&#038;ver=4.2.2' type='text/css' media='all' />
 	</head>
 
 	<body>
-		<div id="container">
+		<div class="container">
+
 			<header>
-				<h1>Origami</h1>
-				<h2>A Content Focused Wordpress Theme</h2>
-				<div class="loupe">
-				<a href="http://google.com"> <img src="mag.png">
+			  <div class="row"> 
+			     <div class ="col-md-11">
+					<h1>Origami</h1>
+					<h2>A Content Focused Wordpress Theme</h2>
+					</div>
+				<div class ="col-md-1">
+				    <a href="http://google.com"><img src="mag.png"></a>
 				</div>
+			  </div>
 			</header>
-					
-			<nav>
-				<ul>
-					<li>
-						<a href="#">Home Pages</a>
-					</li>
-					<li>
-						<a href="#">Page Templates</a>
-					</li>
-					<li>
-						<a href="#">Galleries</a>
-					</li>
-					<li>
-						<a href="#">Masonry Layout</a>
-					</li>	
-					<li>
-						<a href="#">Page Builder</a>
-					</li>
-					<li>
-						<a href ="#">Bundled Widgets</a>
-					</li>
-				</ul>
-			</nav>
+		
+ 
+			<div class="navbar">
+					 <nav class="navbar navbar-inverse">
+					  <div class="container-fluid">
+					     <ul class="nav navbar-nav">
+					      <li><a href="#">Home</a></li>
+					      <li class="dropdown">
+					        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Home Pages
+					        <span class="caret"></span></a>
+					        <ul class="dropdown-menu">
+					          <li><a href="#">Blog Home</a></li>
+					          <li><a href="#">Custom Home</a></li>
+					          <li><a href="#">A Static Front Page</a></li>
+					        </ul>
+					      </li>
+					      <li><a href="#">Page Templates</a></li>
+					      <li><a href="#">Galleries</a></li>
+					      <li><a href="#">Masonry Layout</a></li>
+					      <li><a href="#">Page Builder</a></li>
+					      <li><a href="#">Bundled Widgets</a></li>
+					    </ul>
+					  </div>
+					</nav>
+			</div>  
+			 
 
-		<!--<div class="deroulant">
-				<ul>
-					<li><a href="">Blog Home</li>
-					<li><a href="">Custom Home</li>
-					<li><a href="">A Static Front Page</li>
-				</ul>
-			</div>-->
 
-			<div class="image"></div>
+		  <div class1 ="liseret"></div>
 
-			<div class ="liseret"></div>
+	   	   <div class="image"></div>
+		  <div class ="article">
+			<h3>Up in the Clouds</h3>
+			<h4>On May the 6, 2013</h4>
+			<p>Où puis-je m'en procurer? Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable. Le Lorem Ipsum ainsi obtenu ne contient aucune répétition, ni ne contient des mots farfelus, ou des touches d'humour.</p>
+		  </div>
 			
-			<article>
-			<h2>Lorem Ipsum</h2>
-			<p>Lrerhjehrehrhjehrjer</p>
-			</article>
-			<footer>
-				<p> pieds de page !!!</p>
-			</footer>
-		</div>
+		  <footer>
+					<div class ="row">
+						<div class ="col-md-3">Recent Posts</div>
+						<div class ="col-md-3">2</div>
+						<div class ="col-md-3">3</div>
+						<div class ="col-md-3">4</div>
+					</div>
+		  </footer>
+	  </div>
 	</body>
 </html>
 
